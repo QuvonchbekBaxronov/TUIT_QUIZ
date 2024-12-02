@@ -1,0 +1,44 @@
+.footer{
+    // position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #0B0E21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        position: relative;
+        width: 100%;
+        p{
+            color: white;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+        h4{
+            text-align: center;
+            color: white;
+            font-weight: 400;
+        }
+        div{
+            position: absolute;
+            right: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            gap: 5px;   
+
+        }
+        a{
+            width: 45px;
+            img{
+                width: 25px;
+            }
+        }
+    }
+}
